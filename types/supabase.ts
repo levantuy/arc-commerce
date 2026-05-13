@@ -314,7 +314,7 @@ export type Database = {
       admin_transaction_type: "STANDARD" | "CCTP_APPROVAL" | "CCTP_BURN" | "CCTP_MINT"
       admin_wallet_status: "ENABLED" | "DISABLED" | "ARCHIVED"
       transaction_direction: "credit" | "debit"
-      transaction_status: "pending" | "completed" | "confirmed" | "complete" | "failed"
+      transaction_status: "pending" | "confirmed" | "complete" | "failed"
       transaction_type: "USER" | "ADMIN" | "CCTP_APPROVAL" | "CCTP_BURN" | "CCTP_MINT"
     }
     CompositeTypes: {
